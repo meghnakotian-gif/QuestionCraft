@@ -1,0 +1,20 @@
+# ============================================================
+#  requirements.txt — Python Dependencies for QuestionCraft
+# ============================================================
+#  Install everything at once with:
+#      pip install -r requirements.txt
+# ============================================================
+
+# Flask — the web framework
+Flask==3.0.3
+
+# psycopg2-binary — PostgreSQL database adapter for Python
+# "-binary" includes pre-compiled C libraries so no build tools needed
+psycopg2-binary==2.9.9
+
+# python-dotenv — loads .env file into environment variables
+python-dotenv==1.0.1
+
+# Flask-CORS — allows frontend (running on a different port) to
+# call this backend without browser security errors
+flask-cors==4.0.1
